@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "我是內文"; ObjectID = "QI3-j6-VaT"; */
+"QI3-j6-VaT.text" = "我是內文";
+
+/* Class = "UIButton"; configuration.title = "中文"; ObjectID = "Y3B-ua-6Wv"; */
+"Y3B-ua-6Wv.configuration.title" = "中文";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y3B-ua-6Wv"; */
+"Y3B-ua-6Wv.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "英文"; ObjectID = "uui-zz-hqT"; */
+"uui-zz-hqT.configuration.title" = "英文";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uui-zz-hqT"; */
+"uui-zz-hqT.normalTitle" = "Button";

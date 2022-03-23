@@ -2,13 +2,14 @@
 //  AppDelegate.m
 //  change_language
 //
-//  Created by 王志中 on 2022/3/22.
+//  Created by John on 2022/3/22.
 //
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate () {
+    
+}
 @end
 
 @implementation AppDelegate
@@ -36,5 +37,14 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
+-(void) initLanguage: (NSString*) selectLanguage {
+    if(_languageModel == nil)
+        _languageModel  = [[LanguageModel alloc] init];
+    [_languageModel initLanguage:selectLanguage];
+}
+
+-(NSString*) getStringForKey:(NSString*)key withTable:(NSString*)table {
+    return [_languageModel getStringForKey:key withTable:table];
+}
 
 @end
